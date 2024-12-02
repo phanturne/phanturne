@@ -1,8 +1,6 @@
-# Hi there, I'm Kevin Ding 👋
+# Hey there, I'm Kevin Ding 👋
 
-🔮 Junior Software Engineer with a Passion for AI/ML
-
-Hey there! I’m a software engineer pursuing an online master’s in Computer Science at Georgia Tech. I’m diving into software engineering and AI, eager to tackle real-world challenges and bring a little brightness to everyday life.
+I’m a software engineer pursuing an online master’s in Computer Science at Georgia Tech. I’m diving into software engineering and AI, eager to tackle real-world challenges and bring a little brightness to everyday life.
 
 A bit about me: 
 - Proficient in JavaScript, Python, and Next.js, always seeking new coding adventures.
