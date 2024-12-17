@@ -1,17 +1,16 @@
 # Hey there, I'm Kevin Ding 👋
 
-I’m a software engineer pursuing an online master’s in Computer Science at Georgia Tech. I’m diving into software engineering and AI, eager to tackle real-world challenges and bring a little brightness to everyday life.
+👋 Junior Software Engineer | Learning, Building, and Exploring AI/ML
 
-A bit about me: 
-- Proficient in JavaScript, Python, and Next.js, always seeking new coding adventures.
-- Exploring the latest technologies through personal projects.
-- Committed to lifelong learning through courses, workshops, and tech events.
-- Enjoy getting lost in Chinese and Korean dramas and anime.
-- Staying active with daily exercise to keep my energy up.
+Hi there! I’m a software engineer pursuing a part-time online master’s in Computer Science at Georgia Tech. I’m eager to create software that addresses real-world challenges, with a growing interest in AI and machine learning.
 
-I’m excited to be part of a supportive team where I can contribute, learn, and grow together. If you’re working on something exciting in software engineering, let’s connect! I bring plenty of enthusiasm and a positive can-do spirit.
+A bit about me:
+- Proficient in Python, TypeScript, and Next.js – turning ideas into practical solutions
+- Enjoy tackling personal projects and coding challenges to explore emerging technologies
+- Committed to continuous learning through courses, workshops, and tech community events
+- Outside of tech, I love reading, watching Chinese and Korean dramas, and staying active with daily exercise.
 
-P.S. I’m open to mentorship opportunities—I’m looking forward to the journey ahead!
+Always open to connecting with fellow tech enthusiasts, learners, and curious minds. Feel free to reach out if you’re interested in exchanging ideas or potential collaborations!
 
 ## 🛠️ Skills
 
@@ -24,7 +23,6 @@ P.S. I’m open to mentorship opportunities—I’m looking forward to the journ
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 
 **Frameworks**
 
