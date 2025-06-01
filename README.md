@@ -1,14 +1,10 @@
-# Hey there, I'm Kevin Ding 👋
+# Hey there, I'm Kevin 👋
 
-👋 Junior Software Engineer | Learning, Building, and Exploring AI/ML
+Hi! I'm a software engineer working towards a part-time master's in CS at Georgia Tech. I’m especially excited about the possibilities of AI/ML, and I enjoy building tools and systems that solve real problems or make everyday tasks a little easier.
 
-Hi there! I’m a software engineer pursuing a part-time online master’s in Computer Science at Georgia Tech. I’m eager to create software that addresses real-world challenges, with a growing interest in AI and machine learning.
+I work mainly with Python, TypeScript, and Next.js. I like to learn by digging into personal projects and coding challenges because it helps me stay curious and keep improving.
 
-A bit about me:
-- Proficient in Python, TypeScript, and Next.js – turning ideas into practical solutions
-- Enjoy tackling personal projects and coding challenges to explore emerging technologies
-- Committed to continuous learning through courses, workshops, and tech community events
-- Outside of tech, I love reading, watching Chinese and Korean dramas, and staying active with daily exercise.
+Outside of coding, I enjoy reading, watching dramas, and staying active. I'm always happy to connect and chat about tech, AI/ML, or anything else that sparks curiosity. Feel free to reach out!
 
 Always open to connecting with fellow tech enthusiasts, learners, and curious minds. Feel free to reach out if you’re interested in exchanging ideas or potential collaborations!
 
@@ -50,7 +46,6 @@ Always open to connecting with fellow tech enthusiasts, learners, and curious mi
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
