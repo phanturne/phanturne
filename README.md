@@ -1,12 +1,14 @@
 # Hey there, I'm Kevin 👋
 
-Hi! I'm a software engineer working towards a part-time master's in CS at Georgia Tech. I’m especially excited about the possibilities of AI/ML, and I enjoy building tools and systems that solve real problems or make everyday tasks a little easier.
+Software Engineer at Peraton, currently doing my master's at Georgia Tech (which gives me way too many excuses to dive deeper into AI research).
 
-I work mainly with Python, TypeScript, and Next.js. I like to learn by digging into personal projects and coding challenges because it helps me stay curious and keep improving.
+Right now I'm building Metadachi, an AI platform that lets you chat with your documents and organize them into shareable notebooks. Started it because I was drowning in saved articles, PDFs, and notes scattered everywhere. Always adding new features and enhancing it, which honestly keeps things interesting: https://www.metadachi.com
 
-Outside of coding, I enjoy reading, watching dramas, and staying active. I'm always happy to connect and chat about tech, AI/ML, or anything else that sparks curiosity. Feel free to reach out!
+I love the problem-solving aspect of engineering, whether that's mentoring newer devs, untangling some gnarly integration issue, or figuring out why my personal projects work perfectly until the moment I demo them to someone else. There's something satisfying about making complex things actually useful.
 
-Always open to connecting with fellow tech enthusiasts, learners, and curious minds. Feel free to reach out if you’re interested in exchanging ideas or potential collaborations!
+When I'm not debugging code (or my life choices), I'm probably reading about whatever AI development just dropped, watching K-dramas, or mentally refactoring code while exercising.
+
+Always happy to chat about interesting projects, the latest in AI/ML, or really anything that gets you thinking differently. Drop me a line if you're working on something cool or just want to geek out about tech!
 
 ## 🛠️ Skills
 
