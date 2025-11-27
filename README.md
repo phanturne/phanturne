@@ -1,14 +1,6 @@
 # Hey there, I'm Kevin 👋
 
-Software Engineer at Peraton, currently doing my master's at Georgia Tech (which gives me way too many excuses to dive deeper into AI research).
-
-Right now I'm building Metadachi, an AI platform that lets you chat with your documents and organize them into shareable notebooks. Started it because I was drowning in saved articles, PDFs, and notes scattered everywhere. Always adding new features and enhancing it, which honestly keeps things interesting: https://www.metadachi.com
-
-I love the problem-solving aspect of engineering, whether that's mentoring newer devs, untangling some gnarly integration issue, or figuring out why my personal projects work perfectly until the moment I demo them to someone else. There's something satisfying about making complex things actually useful.
-
-When I'm not debugging code (or my life choices), I'm probably reading about whatever AI development just dropped, watching K-dramas, or mentally refactoring code while exercising.
-
-Always happy to chat about interesting projects, the latest in AI/ML, or really anything that gets you thinking differently. Drop me a line if you're working on something cool or just want to geek out about tech!
+404 Bio Not Found
 
 ## 🛠️ Skills
 
