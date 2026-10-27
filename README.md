@@ -1,6 +1,6 @@
 # Hey there, I'm Kevin 👋
 
-404 Bio Not Found
+Software Engineer (Human)
 
 ## 🛠️ Skills
 
