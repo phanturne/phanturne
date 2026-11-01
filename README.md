@@ -58,9 +58,3 @@ I build high-scale distributed systems, ML-driven targeting infrastructure, and 
   <img src="https://github-readme-stats.vercel.app/api?username=phanturne&show_icons=true&theme=radical&hide_border=true" height="165" alt="Kevin's GitHub stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=phanturne&theme=radical&hide_border=true" height="165" alt="GitHub Streak" />
 </p>
-
----
-
-## 📫 Let's Connect
-
-Feel free to reach out via [email](mailto:krding68@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/krding).
