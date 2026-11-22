@@ -25,7 +25,7 @@ I build end-to-end web applications, distributed backend services, and interacti
     </td>
     <td width="50%" valign="top">
       <a href="https://phanturne.github.io/pokebastion/">
-        <img src="https://raw.githubusercontent.com/phanturne/pokebastion/master/docs/screenshots/combat.png" alt="PokéBastion TD Live Combat" width="100%" />
+        <img src="https://raw.githubusercontent.com/phanturne/pokebastion/master/docs/screenshots/home.png" alt="PokéBastion TD Live Combat" width="100%" />
       </a>
       <h4>
         <a href="https://github.com/phanturne/pokebastion">PokéBastion TD</a>
@@ -47,10 +47,10 @@ I build end-to-end web applications, distributed backend services, and interacti
     </td>
     <td width="50%" valign="top">
       <a href="https://phanturne.github.io/pokebastion/">
-        <img src="https://raw.githubusercontent.com/phanturne/pokebastion/master/docs/screenshots/prep.png" alt="PokéBastion Prep & Pathfinding" width="48%" />
+        <img src="https://raw.githubusercontent.com/phanturne/pokebastion/master/docs/screenshots/draft.png" alt="PokéBastion Prep & Pathfinding" width="48%" />
       </a>
       <a href="https://phanturne.github.io/pokebastion/">
-        <img src="https://raw.githubusercontent.com/phanturne/pokebastion/master/docs/screenshots/draft.png" alt="PokéBastion Starter Draft" width="48%" />
+        <img src="https://raw.githubusercontent.com/phanturne/pokebastion/master/docs/screenshots/combat.png" alt="PokéBastion Starter Draft" width="48%" />
       </a>
     </td>
   </tr>
