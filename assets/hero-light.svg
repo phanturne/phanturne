@@ -1,119 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="100%" height="100%">
   <defs>
-    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f6f8fa" />
-      <stop offset="100%" stop-color="#eef2f6" />
-    </linearGradient>
-    <linearGradient id="cell-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#fcfdfd" />
-    </linearGradient>
-    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0969da" stop-opacity="0" />
-      <stop offset="50%" stop-color="#0969da" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#1a7f37" stop-opacity="0" />
-    </linearGradient>
-    <radialGradient id="ambient" cx="15%" cy="15%" r="60%">
-      <stop offset="0%" stop-color="#0969da" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
-    </radialGradient>
     <style>
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
-      .name { font-size: 34px; font-weight: 800; fill: #1f2328; letter-spacing: -0.8px; }
+      .name { font-size: 32px; font-weight: 700; fill: #1f2328; letter-spacing: -0.6px; }
+      .role { font-size: 14px; font-weight: 600; fill: #1f2328; }
       .bio { font-size: 13.5px; font-weight: 400; fill: #59636e; }
-      .bio-hi { fill: #1f2328; font-weight: 600; }
-      .label { font-size: 10.5px; font-weight: 700; fill: #656d76; letter-spacing: 1.2px; }
-      .cell-title { font-size: 13.5px; font-weight: 600; fill: #1f2328; }
-      .cell-sub { font-size: 12px; font-weight: 400; fill: #59636e; }
-      .pill-text { font-size: 11.5px; font-weight: 500; fill: #1f2328; }
-      .status-text { font-size: 11px; font-weight: 600; fill: #1a7f37; letter-spacing: 0.4px; }
-      .pulse-ring {
-        transform-origin: 48px 46px;
-        animation: pulse 2.4s cubic-bezier(0, 0, 0.2, 1) infinite;
-      }
-      .shimmer-line {
-        stroke-dasharray: 180 680;
-        animation: shimmer 6s linear infinite;
-      }
-      .spark {
-        stroke-dasharray: 220;
-        stroke-dashoffset: 220;
-        animation: draw 3.5s ease-out forwards;
-      }
-      @keyframes pulse {
-        0% { transform: scale(1); opacity: 0.65; }
-        70% { transform: scale(2.4); opacity: 0; }
-        100% { transform: scale(2.4); opacity: 0; }
-      }
-      @keyframes shimmer {
-        0% { stroke-dashoffset: 860; }
-        100% { stroke-dashoffset: 0; }
-      }
-      @keyframes draw {
-        to { stroke-dashoffset: 0; }
-      }
+      .label { font-size: 10.5px; font-weight: 600; fill: #656d76; letter-spacing: 0.8px; }
+      .cell-title { font-size: 13px; font-weight: 600; fill: #1f2328; }
+      .cell-sub { font-size: 12.5px; font-weight: 400; fill: #59636e; }
+      .pill-text { font-size: 11.5px; font-weight: 500; fill: #59636e; }
+      .status-text { font-size: 11.5px; font-weight: 600; fill: #1a7f37; }
     </style>
   </defs>
 
-  <!-- Outer Frame -->
-  <rect x="1" y="1" width="878" height="248" rx="14" fill="url(#card-bg)" stroke="#d0d7de" stroke-width="1.5" />
+  <!-- Outer Card -->
+  <rect x="1" y="1" width="878" height="218" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
 
-  <!-- Left Main Bento Cell -->
-  <rect x="16" y="16" width="538" height="218" rx="10" fill="url(#cell-bg)" stroke="#d0d7de" stroke-width="1" />
-  <rect x="16" y="16" width="538" height="218" rx="10" fill="url(#ambient)" />
+  <!-- Vertical Divider -->
+  <line x1="556" y1="28" x2="556" y2="192" stroke="#d8dee4" stroke-width="1" />
 
-  <!-- Animated Top Border Accent -->
-  <line x1="26" y1="16" x2="544" y2="16" stroke="url(#accent-glow)" stroke-width="2" class="shimmer-line" />
+  <!-- Left Column: Identity -->
+  <g transform="translate(36, 42)">
+    <text x="0" y="24" class="sans name">Kevin Ding</text>
 
-  <!-- Status Badge -->
-  <rect x="36" y="34" width="234" height="24" rx="12" fill="#dafbe1" stroke="#82e596" stroke-width="1" />
-  <circle cx="48" cy="46" r="4" fill="#1a7f37" class="pulse-ring" />
-  <circle cx="48" cy="46" r="3.5" fill="#1a7f37" />
-  <text x="60" y="50" class="mono status-text">SDE @ AMAZON PRIME VIDEO</text>
+    <!-- Role Pill -->
+    <rect x="192" y="5" width="222" height="24" rx="12" fill="#dafbe1" stroke="#aceebb" stroke-width="1" />
+    <circle cx="206" cy="17" r="3.5" fill="#1a7f37" />
+    <text x="217" y="21" class="sans status-text">SDE @ Amazon Prime Video</text>
 
-  <!-- Name & Bio -->
-  <text x="36" y="98" class="sans name">Kevin Ding</text>
-  <text x="36" y="126" class="sans bio">
-    <tspan class="bio-hi">Full-Stack Software Engineer</tspan> building end-to-end web platforms,
-  </text>
-  <text x="36" y="146" class="sans bio">
-    high-scale distributed backend services, and interactive interfaces.
-  </text>
+    <text x="0" y="64" class="sans role">Full-Stack Software Engineer</text>
+    <text x="0" y="88" class="sans bio">Building end-to-end web applications, distributed backend services,</text>
+    <text x="0" y="107" class="sans bio">and interactive interfaces.</text>
 
-  <!-- Tech Domain Pills -->
-  <g transform="translate(36, 184)">
-    <rect x="0" y="0" width="166" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <circle cx="14" cy="14" r="3.5" fill="#0969da" />
-    <text x="25" y="18" class="mono pill-text">TS · React · Next.js</text>
+    <!-- Focus Tags -->
+    <g transform="translate(0, 128)">
+      <rect x="0" y="0" width="154" height="24" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+      <text x="12" y="16" class="mono pill-text">TS · React · Next.js</text>
 
-    <rect x="176" y="0" width="164" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <circle cx="190" cy="14" r="3.5" fill="#bc4c00" />
-    <text x="201" y="18" class="mono pill-text">Java · Python · AWS</text>
+      <rect x="164" y="0" width="152" height="24" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+      <text x="176" y="16" class="mono pill-text">Java · Python · AWS</text>
 
-    <rect x="350" y="0" width="152" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <circle cx="364" cy="14" r="3.5" fill="#8250df" />
-    <text x="375" y="18" class="mono pill-text">Postgres · Spark</text>
+      <rect x="326" y="0" width="142" height="24" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+      <text x="338" y="16" class="mono pill-text">Postgres · Spark</text>
+    </g>
   </g>
 
-  <!-- Right Top Bento Cell: Education -->
-  <rect x="568" y="16" width="296" height="122" rx="10" fill="url(#cell-bg)" stroke="#d0d7de" stroke-width="1" />
-  <text x="588" y="38" class="mono label">EDUCATION</text>
+  <!-- Right Column: Education & Off the Clock -->
+  <g transform="translate(588, 42)">
+    <text x="0" y="10" class="mono label">EDUCATION</text>
+    <text x="0" y="32" class="sans cell-title">Georgia Tech <tspan class="cell-sub">· M.S. CS (ML)</tspan></text>
+    <text x="0" y="52" class="sans cell-title">UC Santa Cruz <tspan class="cell-sub">· B.S. CS</tspan></text>
 
-  <circle cx="593" cy="59" r="3.5" fill="#9a6700" />
-  <text x="606" y="63" class="sans cell-title">Georgia Tech</text>
-  <text x="606" y="79" class="sans cell-sub">M.S. Computer Science (ML)</text>
+    <line x1="0" y1="74" x2="256" y2="74" stroke="#d8dee4" stroke-width="1" />
 
-  <circle cx="593" cy="102" r="3.5" fill="#0969da" />
-  <text x="606" y="106" class="sans cell-title">UC Santa Cruz</text>
-  <text x="606" y="122" class="sans cell-sub">B.S. Computer Science</text>
-
-  <!-- Right Bottom Bento Cell: Off Duty + Telemetry Sparkline -->
-  <rect x="568" y="148" width="296" height="86" rx="10" fill="url(#cell-bg)" stroke="#d0d7de" stroke-width="1" />
-  <text x="588" y="170" class="mono label">OFF THE CLOCK</text>
-  <text x="588" y="193" class="sans cell-title">Bouldering · Lifting · Cooking</text>
-  <text x="588" y="212" class="sans cell-sub">Reading · C-Dramas &amp; K-Dramas</text>
-
-  <!-- Subtle Animated Sparkline in Bottom-Right Corner -->
-  <path d="M 760 218 L 775 212 L 788 215 L 804 198 L 818 202 L 834 182 L 848 174" fill="none" stroke="#0969da" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" opacity="0.45" class="spark" />
+    <text x="0" y="98" class="mono label">OUTSIDE OF WORK</text>
+    <text x="0" y="120" class="sans cell-title">Bouldering · Calisthenics · Cooking</text>
+    <text x="0" y="140" class="sans cell-sub">Reading · C-Dramas &amp; K-Dramas</text>
+  </g>
 </svg>

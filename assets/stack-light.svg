@@ -1,46 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 176" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f6f8fa" />
-      <stop offset="100%" stop-color="#eef2f6" />
-    </linearGradient>
-    <linearGradient id="cell" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#fcfdfd" />
-    </linearGradient>
     <style>
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
-      .idx { font-size: 10.5px; font-weight: 700; letter-spacing: 1px; }
-      .title { font-size: 13.5px; font-weight: 700; fill: #1f2328; }
+      .label { font-size: 12px; font-weight: 600; fill: #1f2328; }
       .tech { font-size: 12px; font-weight: 400; fill: #59636e; }
       .tech-hi { fill: #1f2328; font-weight: 600; }
     </style>
   </defs>
 
-  <rect x="1" y="1" width="878" height="188" rx="14" fill="url(#bg)" stroke="#d0d7de" stroke-width="1.5" />
+  <rect x="1" y="1" width="878" height="174" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+  <line x1="440" y1="20" x2="440" y2="156" stroke="#d8dee4" stroke-width="1" />
+  <line x1="28" y1="88" x2="852" y2="88" stroke="#d8dee4" stroke-width="1" />
 
-  <!-- 01 Frontend -->
-  <rect x="16" y="16" width="418" height="73" rx="9" fill="url(#cell)" stroke="#d0d7de" stroke-width="1" />
-  <text x="32" y="38" class="mono idx" fill="#0969da">01 / FRONTEND &amp; INTERACTIVE UI</text>
-  <text x="32" y="60" class="mono tech"><tspan class="tech-hi">TypeScript · React 19 · Next.js 16</tspan> · Tailwind CSS</text>
-  <text x="32" y="77" class="mono tech">HTML5 Canvas · Pure SVG Charting · Phaser 3 · Angular</text>
+  <!-- Top Left: Frontend -->
+  <g transform="translate(32, 34)">
+    <text x="0" y="0" class="sans label">Frontend</text>
+    <text x="0" y="22" class="mono tech"><tspan class="tech-hi">TypeScript · React · Next.js</tspan> · Tailwind CSS</text>
+    <text x="0" y="40" class="mono tech">HTML5 Canvas · SVG · Phaser 3 · Angular</text>
+  </g>
 
-  <!-- 02 Backend -->
-  <rect x="446" y="16" width="418" height="73" rx="9" fill="url(#cell)" stroke="#d0d7de" stroke-width="1" />
-  <text x="462" y="38" class="mono idx" fill="#bc4c00">02 / BACKEND &amp; DISTRIBUTED SYSTEMS</text>
-  <text x="462" y="60" class="mono tech"><tspan class="tech-hi">Java · Python · Node.js · Scala</tspan> · C++ · C# / .NET</text>
-  <text x="462" y="77" class="mono tech">High-Scale Microservices · Serverless APIs · ETL Pipelines</text>
+  <!-- Top Right: Backend -->
+  <g transform="translate(468, 34)">
+    <text x="0" y="0" class="sans label">Backend &amp; Systems</text>
+    <text x="0" y="22" class="mono tech"><tspan class="tech-hi">Java · Python · Node.js</tspan> · Scala</text>
+    <text x="0" y="40" class="mono tech">C++ · C# / .NET · REST &amp; Serverless APIs</text>
+  </g>
 
-  <!-- 03 Data & Cloud -->
-  <rect x="16" y="101" width="418" height="73" rx="9" fill="url(#cell)" stroke="#d0d7de" stroke-width="1" />
-  <text x="32" y="123" class="mono idx" fill="#8250df">03 / DATA, STORAGE &amp; CLOUD INFRA</text>
-  <text x="32" y="145" class="mono tech"><tspan class="tech-hi">AWS · PostgreSQL (Neon / Supabase)</tspan> · DynamoDB</text>
-  <text x="32" y="162" class="mono tech">Drizzle ORM · Apache Spark · Docker · Linux · Vercel</text>
+  <!-- Bottom Left: Data & Cloud -->
+  <g transform="translate(32, 118)">
+    <text x="0" y="0" class="sans label">Data &amp; Cloud</text>
+    <text x="0" y="22" class="mono tech"><tspan class="tech-hi">AWS · PostgreSQL · DynamoDB</tspan> · Supabase</text>
+    <text x="0" y="40" class="mono tech">Apache Spark · Drizzle ORM · Docker · Linux</text>
+  </g>
 
-  <!-- 04 ML, Quant & Quality -->
-  <rect x="446" y="101" width="418" height="73" rx="9" fill="url(#cell)" stroke="#d0d7de" stroke-width="1" />
-  <text x="462" y="123" class="mono idx" fill="#1a7f37">04 / ML, QUANT &amp; VERIFICATION</text>
-  <text x="462" y="145" class="mono tech"><tspan class="tech-hi">PyTorch · scikit-learn · Pandas</tspan> · NumPy · SciPy</text>
-  <text x="462" y="162" class="mono tech">Vitest · Playwright E2E · Ephemeral DB Branch Testing</text>
+  <!-- Bottom Right: ML & Testing -->
+  <g transform="translate(468, 118)">
+    <text x="0" y="0" class="sans label">ML, Data Science &amp; Testing</text>
+    <text x="0" y="22" class="mono tech"><tspan class="tech-hi">PyTorch · scikit-learn</tspan> · Pandas · NumPy</text>
+    <text x="0" y="40" class="mono tech">SciPy · TensorFlow · Vitest · Playwright</text>
+  </g>
 </svg>

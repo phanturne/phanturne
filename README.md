@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-### Shipped Systems & Applications
+### Projects
 
 <table>
   <tr>
@@ -18,11 +18,9 @@
         <a href="https://github.com/phanturne/stress-alpha">StressAlpha</a>
         &nbsp;·&nbsp;
         <a href="https://stressalpha.vercel.app"><sub>Live App ↗</sub></a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/phanturne/stress-alpha/blob/main/docs/architecture.md"><sub>Architecture ↗</sub></a>
       </h4>
-      <p>Full-stack equity earnings and scenario stress-simulation platform covering <strong>521 equities</strong> and <strong>640+ multi-quarter filings</strong>. Pairs a <code>&lt;1ms</code> deterministic client-side valuation engine and pure-SVG financial charting with automated SEC EDGAR &amp; Yahoo Finance ingestion pipelines.</p>
-      <p><sub><code>Next.js 16</code> · <code>React 19</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Neon PostgreSQL</code> · <code>Drizzle ORM</code> · <code>Vitest</code></sub></p>
+      <p>Equity earnings and scenario stress-testing web app covering 521 stocks. Combines client-side valuation modeling and custom SVG charts with automated SEC EDGAR &amp; Yahoo Finance ingestion.</p>
+      <p><sub><code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>PostgreSQL</code> · <code>Drizzle ORM</code></sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://phanturne.github.io/pokebastion/">
@@ -32,10 +30,8 @@
         <a href="https://github.com/phanturne/pokebastion">PokéBastion TD</a>
         &nbsp;·&nbsp;
         <a href="https://phanturne.github.io/pokebastion/"><sub>Play Live ↗</sub></a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/phanturne/pokebastion/blob/master/docs/architecture.md"><sub>Architecture ↗</sub></a>
       </h4>
-      <p>Open-map, real-time roguelike tower defense game running natively in the browser. Features dynamic <code>28×18</code> grid pathfinding around player-built walls, <strong>152 playable units</strong> with 3-way specialization trees, real-time Action Point repositioning, and persistent meta-progression.</p>
+      <p>Open-map roguelike tower defense game for the browser. Enemies dynamically pathfind around player-built walls across a 28×18 grid, with 152 playable units, specialization trees, and live repositioning.</p>
       <p><sub><code>TypeScript</code> · <code>Phaser 3</code> · <code>Vite</code> · <code>HTML5 Canvas</code> · <code>Vitest</code> · <code>Playwright</code></sub></p>
     </td>
   </tr>
@@ -59,12 +55,12 @@
   </tr>
 </table>
 
-### Architecture & Stack
+### Tech Stack
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg" />
-    <img alt="Engineering Stack" src="./assets/stack-dark.svg" width="100%" />
+    <img alt="Tech Stack" src="./assets/stack-dark.svg" width="100%" />
   </picture>
 </p>
