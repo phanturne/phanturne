@@ -1,10 +1,11 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-    <img alt="Kevin Ding — Full-Stack Software Engineer" src="./assets/hero-dark.svg" width="100%" />
-  </picture>
-</p>
+# Kevin Ding
+
+**Full-Stack Software Engineer @ Amazon Prime Video**  
+M.S. Computer Science (Machine Learning), **Georgia Tech** · B.S. Computer Science, **UC Santa Cruz**
+
+I build end-to-end web applications, distributed backend services, and interactive interfaces. Outside of work, I'm usually indoor bouldering, doing calisthenics, cooking, reading, or catching up on a good C-drama/K-drama.
+
+---
 
 ### Projects
 
@@ -55,12 +56,13 @@
   </tr>
 </table>
 
+---
+
 ### Tech Stack
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg" />
-    <img alt="Tech Stack" src="./assets/stack-dark.svg" width="100%" />
-  </picture>
-</p>
+| Layer | Technologies |
+| :--- | :--- |
+| **Frontend** | `TypeScript` · `React` · `Next.js` · `Tailwind CSS` · `HTML5 Canvas` · `SVG` · `Phaser 3` · `Angular` |
+| **Backend & Systems** | `Java` · `Python` · `Node.js` · `Scala` · `C++` · `C#` · `.NET` · `SQL` |
+| **Data & Cloud** | `AWS` · `PostgreSQL` · `DynamoDB` · `Supabase` · `Apache Spark` · `Drizzle ORM` · `Docker` · `Linux` · `Vercel` |
+| **ML & Testing** | `PyTorch` · `scikit-learn` · `TensorFlow` · `Pandas` · `NumPy` · `SciPy` · `Vitest` · `Playwright` |
