@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#090c10" />
+    </linearGradient>
+    <linearGradient id="cell" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .idx { font-size: 10.5px; font-weight: 700; letter-spacing: 1px; }
+      .title { font-size: 13.5px; font-weight: 700; fill: #f0f6fc; }
+      .tech { font-size: 12px; font-weight: 400; fill: #8b949e; }
+      .tech-hi { fill: #c9d1d9; font-weight: 500; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="878" height="188" rx="14" fill="url(#bg)" stroke="#21262d" stroke-width="1.5" />
+
+  <!-- 01 Frontend -->
+  <rect x="16" y="16" width="418" height="73" rx="9" fill="url(#cell)" stroke="#30363d" stroke-width="1" />
+  <text x="32" y="38" class="mono idx" fill="#58a6ff">01 / FRONTEND &amp; INTERACTIVE UI</text>
+  <text x="32" y="60" class="mono tech"><tspan class="tech-hi">TypeScript · React 19 · Next.js 16</tspan> · Tailwind CSS</text>
+  <text x="32" y="77" class="mono tech">HTML5 Canvas · Pure SVG Charting · Phaser 3 · Angular</text>
+
+  <!-- 02 Backend -->
+  <rect x="446" y="16" width="418" height="73" rx="9" fill="url(#cell)" stroke="#30363d" stroke-width="1" />
+  <text x="462" y="38" class="mono idx" fill="#f0883e">02 / BACKEND &amp; DISTRIBUTED SYSTEMS</text>
+  <text x="462" y="60" class="mono tech"><tspan class="tech-hi">Java · Python · Node.js · Scala</tspan> · C++ · C# / .NET</text>
+  <text x="462" y="77" class="mono tech">High-Scale Microservices · Serverless APIs · ETL Pipelines</text>
+
+  <!-- 03 Data & Cloud -->
+  <rect x="16" y="101" width="418" height="73" rx="9" fill="url(#cell)" stroke="#30363d" stroke-width="1" />
+  <text x="32" y="123" class="mono idx" fill="#a371f7">03 / DATA, STORAGE &amp; CLOUD INFRA</text>
+  <text x="32" y="145" class="mono tech"><tspan class="tech-hi">AWS · PostgreSQL (Neon / Supabase)</tspan> · DynamoDB</text>
+  <text x="32" y="162" class="mono tech">Drizzle ORM · Apache Spark · Docker · Linux · Vercel</text>
+
+  <!-- 04 ML, Quant & Quality -->
+  <rect x="446" y="101" width="418" height="73" rx="9" fill="url(#cell)" stroke="#30363d" stroke-width="1" />
+  <text x="462" y="123" class="mono idx" fill="#3fb950">04 / ML, QUANT &amp; VERIFICATION</text>
+  <text x="462" y="145" class="mono tech"><tspan class="tech-hi">PyTorch · scikit-learn · Pandas</tspan> · NumPy · SciPy</text>
+  <text x="462" y="162" class="mono tech">Vitest · Playwright E2E · Ephemeral DB Branch Testing</text>
+</svg>
